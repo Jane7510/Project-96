@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kwitter</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="kwitter_room.css">
+<script src="kwitter_room.js"></script>
+</head>
+<body>
+
+  
+    <div>
+    <button id="Logout" class="btn btn-danger" onclick="logout()">
+        <i class="glyphicon glyphicon-off"></i>&nbsp;Logout!
+        </button>
+        <br>
+        <br>
+    </div>
+    <br>
+    <br> 
+   <center class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+       
+    <h1 style="margin-left: 715px;">Kwitter!</h1>
+
+<img style="margin-left: 715px;" id="bird" src="Kwitter_bird.png">
+<br>
+<br>
+<h3 id="user_name" class="color_white"></h3>
+<br>
+<br>
+<center id="box">
+<input type="text" class="form-control" style="width: 300px; text-align: left;  margin-left: 615px;" id="RoomName" placeholder="Enter Your Room Name Here!">
+
+<br>
+<br>
+<button style="margin-left: 715px;" class="btn btn-info" id="addRoomBtn" onclick="addRoom()">Add Room!</button>
+</center>
+</center>
+
+<center>
+    <div id="RoomNames"></div>
+</center>
+</body>

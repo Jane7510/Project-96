@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body{
+    text-align: center;
+    background-image: url("What\'s\ happening!!!.png");
+}
+
+h1{
+    font-family: 'Josefin Sans', sans-serif; 
+    color: deeppink;
+}
+
+h4{
+    font-family: 'Patrick Hand', cursive;
+}
+
+h3{
+    font-family: 'Patrick Hand', cursive;
+    font-style: bold;
+}
